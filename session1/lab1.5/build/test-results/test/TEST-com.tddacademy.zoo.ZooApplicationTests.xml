@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tddacademy.zoo.ZooApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-21T09:24:41.876Z" hostname="GXCHLAP00677.local" time="0.323">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.tddacademy.zoo.ZooApplicationTests" time="0.323"/>
+  <system-out><![CDATA[17:24:41.353 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tddacademy.zoo.ZooApplicationTests]: ZooApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:24:41.386 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tddacademy.zoo.ZooApplication for test class com.tddacademy.zoo.ZooApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2025-07-21T17:24:41.524+08:00  INFO 49991 --- [zoo-simulator-lab1.5] [    Test worker] com.tddacademy.zoo.ZooApplicationTests   : Starting ZooApplicationTests using Java 24.0.1 with PID 49991 (started by warrendenzel.cheng in /Users/warrendenzel.cheng/Desktop/Trainings/TDD-Academy-projects/cloudschool-tdd-academy/lab1.5)
+2025-07-21T17:24:41.524+08:00  INFO 49991 --- [zoo-simulator-lab1.5] [    Test worker] com.tddacademy.zoo.ZooApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T17:24:41.872+08:00  INFO 49991 --- [zoo-simulator-lab1.5] [    Test worker] com.tddacademy.zoo.ZooApplicationTests   : Started ZooApplicationTests in 0.445 seconds (process running for 0.831)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/warrendenzel.cheng/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.6/17b32fd9f57deef02842f7f05abc4ad8127fe34e/byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
